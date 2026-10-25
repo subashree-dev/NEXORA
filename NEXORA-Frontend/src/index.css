@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #eef2f6;
+    color: #0f172a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  code, pre, .font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Soft Neumorphism Design System */
+.neu-bg {
+  background-color: #eef2f6;
+}
+
+.neu-card {
+  background-color: #eef2f6;
+  box-shadow: 6px 6px 14px #d1d9e6, -6px -6px 14px #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.neu-card-sm {
+  background-color: #eef2f6;
+  box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.neu-raised {
+  background-color: #eef2f6;
+  box-shadow: 3px 3px 8px #d1d9e6, -3px -3px 8px #ffffff;
+  transition: all 0.15s ease-in-out;
+}
+
+.neu-raised:hover {
+  box-shadow: 5px 5px 12px #c8d2e0, -5px -5px 12px #ffffff;
+}
+
+.neu-inset {
+  background-color: #eef2f6;
+  box-shadow: inset 2px 2px 5px #d1d9e6, inset -2px -2px 5px #ffffff;
+}
+
+.neu-input {
+  background-color: #eef2f6;
+  box-shadow: inset 2px 2px 5px #d1d9e6, inset -2px -2px 5px #ffffff;
+  border: 1px solid rgba(209, 217, 230, 0.6);
+  color: #0f172a;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.neu-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: inset 2px 2px 5px #c5d0df, inset -2px -2px 5px #ffffff, 0 0 0 1px #2563eb;
+}
+
+.neu-btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+  box-shadow: 3px 3px 8px #c2cde0, -3px -3px 8px #ffffff;
+  transition: all 0.15s ease-in-out;
+}
+
+.neu-btn-primary:hover {
+  background-color: #1d4ed8;
+  box-shadow: 4px 4px 10px #b5c2d6, -4px -4px 10px #ffffff;
+}
+
+.neu-btn-primary:active {
+  box-shadow: inset 2px 2px 4px #173fa6, inset -2px -2px 4px #3b82f6;
+}
+
+.neu-btn-secondary {
+  background-color: #eef2f6;
+  color: #1e293b;
+  box-shadow: 3px 3px 8px #d1d9e6, -3px -3px 8px #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  transition: all 0.15s ease-in-out;
+}
+
+.neu-btn-secondary:hover {
+  color: #0f172a;
+  box-shadow: 4px 4px 10px #c5d0df, -4px -4px 10px #ffffff;
+}
+
+.neu-btn-secondary:active,
+.neu-btn-active {
+  background-color: #eef2f6;
+  box-shadow: inset 2px 2px 5px #d1d9e6, inset -2px -2px 5px #ffffff;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* Restrained soft scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eef2f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+

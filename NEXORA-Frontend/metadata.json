@@ -1,0 +1,8 @@
+{
+  "name": "Remix NEXORA — Student Coding Intelligence Platform",
+  "description": "Centralized coding intelligence, LeetCode analytics, and placement readiness platform for college faculty.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
