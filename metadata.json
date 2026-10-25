@@ -1,0 +1,7 @@
+{
+  "name": "NEXORA - AI & DS Coding & Project Platform",
+  "description": "AI & DS Department Coding and Project Tracking Platform for Easwari Engineering College, replacing repetitive Google Sheets with centralized intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,12 +1,23 @@
+
+# Dependencies and generated output
 node_modules/
 target/
+dist/
+.vite/
+coverage/
+build/
+
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
 !.env.sample
-!.gitignore
-dist/
-.vite/
+
+# IDE and operating system files
 .idea/
 .vscode/
 *.iml
+.DS_Store
+
+# Logs
+*.log
